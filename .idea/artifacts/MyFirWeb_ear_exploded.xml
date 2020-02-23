@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="MyFirWeb:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyFirWeb_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MyFirWeb/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>
