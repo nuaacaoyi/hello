@@ -28,7 +28,8 @@ public class AnotherServlet  implements Servlet {
         }
         //设置域属性  也是全局性变量 可以放到别的servlet中访问
         sc.setAttribute("email","cayi@mxsvc.cn");
-
+        System.out.println(sc.getContextPath());
+        System.out.println(sc.getRealPath("index.jsp"));
 
 
     }
