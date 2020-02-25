@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/MyFirWeb/MyFirWeb.iml" filepath="$PROJECT_DIR$/MyFirWeb/MyFirWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/StaticWebStudy/StaticWebStudy.iml" filepath="$PROJECT_DIR$/StaticWebStudy/StaticWebStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello.iml" filepath="$PROJECT_DIR$/hello.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mavendemo/mavendemo.iml" filepath="$PROJECT_DIR$/mavendemo/mavendemo.iml" />
     </modules>
   </component>
 </project>
