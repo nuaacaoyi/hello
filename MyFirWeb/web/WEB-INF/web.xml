@@ -21,6 +21,32 @@
         <servlet-name>servlet-myfir</servlet-name>
         <url-pattern>/some</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>servlet-anoterfir</servlet-name>
+        <servlet-class>com.powernode.java.AnotherServlet</servlet-class>
+        <!--启动WEB容器时，实例化该Servlet，中间的参数值是优先级，越低越优先，0最优先-->
+        <load-on-startup>1</load-on-startup>
+        <init-param>
+            <param-name>name1</param-name>
+            <param-value>河南津孚</param-value>
+        </init-param><init-param>
+        <param-name>address</param-name>
+        <param-value>未来城</param-value>
+    </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet-anoterfir</servlet-name>
+        <url-pattern>/no</url-pattern>
+    </servlet-mapping>
+<!--    定义整个应用的初始化参数-->
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>风雨同舟</param-value>
+    </context-param>
+    <context-param>
+        <param-name>address</param-name>
+        <param-value>郑州中建观湖</param-value>
+    </context-param>
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
