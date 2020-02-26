@@ -19,11 +19,29 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>servlet-myfir</servlet-name>
+        <!--精确路径   同时url-pattern可以录入多个-->
         <url-pattern>/some</url-pattern>
+        <url-pattern>/xxx/ooo/some</url-pattern>
+        <!--通配符模式-->
+        <url-pattern>/aaa/*</url-pattern>
+        <!--全路径模式1，意思是所有的路径都匹配到这个servlet
+          会导致所有的请求都被拦截到这个servlet-->
+        <!--<url-pattern>/*</url-pattern>-->
+        <!--全路径模式2，不会拦截jsp等动态页面-->
+        <!--<url-pattern>/</url-pattern>-->
+        <!--后缀名模式，拦截所有以 .do 结尾的请求，无论 .do 前面有多少 /
+            后缀名模式不能和路径模式一起用   如请求写 /xxx/*.do，服务器无法启动
+        -->
+        <!--<url-pattern>*.do</url-pattern>-->
+        <!-- 如果在两个servlet-mapping中同时有 xxx/*  和 *.do，而请求时输入  xxx/sd.do
+             系统会优先匹配 路径模式
+             优先级： 精确路径>通配符>后缀名
+             同为通配符时，优先级： 长路径>短路径
+           -->
     </servlet-mapping>
     <servlet>
         <servlet-name>servlet-anoterfir</servlet-name>
-        <servlet-class>com.powernode.java.AnotherServlet</servlet-class>
+        <servlet-class>com.powernode.java.LoginServletTest</servlet-class>
         <!--启动WEB容器时，实例化该Servlet，中间的参数值是优先级，越低越优先，0最优先-->
         <load-on-startup>1</load-on-startup>
         <init-param>
@@ -36,7 +54,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>servlet-anoterfir</servlet-name>
-        <url-pattern>/no</url-pattern>
+        <url-pattern>/login</url-pattern>
     </servlet-mapping>
 <!--    定义整个应用的初始化参数-->
     <context-param>
@@ -48,6 +66,7 @@
         <param-value>郑州中建观湖</param-value>
     </context-param>
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <!--默认最前的就是欢迎页面。。如果应用中没有指定的欢迎页面，tomcat会去其config文件夹下的web.xml找-->
+        <welcome-file>index.html</welcome-file>
     </welcome-file-list>
 </web-app>
