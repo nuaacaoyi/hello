@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaWebStudy/JavaWebStudy.iml" filepath="$PROJECT_DIR$/JavaWebStudy/JavaWebStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Module1/Module1.iml" filepath="$PROJECT_DIR$/Module1/Module1.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyFirWeb/MyFirWeb.iml" filepath="$PROJECT_DIR$/MyFirWeb/MyFirWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/StaticWebStudy/StaticWebStudy.iml" filepath="$PROJECT_DIR$/StaticWebStudy/StaticWebStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello.iml" filepath="$PROJECT_DIR$/hello.iml" />

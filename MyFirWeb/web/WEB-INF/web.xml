@@ -64,6 +64,39 @@
         <servlet-name>servlet-response</servlet-name>
         <url-pattern>/response</url-pattern>
     </servlet-mapping>
+    <!--重定向 和 跳转-->
+    <servlet>
+        <servlet-name>servlet-redirect</servlet-name>
+        <servlet-class>com.powernode.java.RedirectTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet-redirect</servlet-name>
+        <url-pattern>/redirect</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>servlet-jumpServlet</servlet-name>
+        <servlet-class>com.powernode.java.JumpServletTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet-jumpServlet</servlet-name>
+        <url-pattern>/jumpServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>servlet-dispatch</servlet-name>
+        <servlet-class>com.powernode.java.RequestDispatchTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet-dispatch</servlet-name>
+        <url-pattern>/dispatch</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>servlet-dispatch2</servlet-name>
+        <servlet-class>com.powernode.java.RequestDispatchTest2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet-dispatch2</servlet-name>
+        <url-pattern>/dispatch2</url-pattern>
+    </servlet-mapping>
 <!--    定义整个应用的初始化参数-->
     <context-param>
         <param-name>name</param-name>

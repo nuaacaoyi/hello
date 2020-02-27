@@ -39,6 +39,7 @@ public class RegisterServlet extends HttpServlet {
         web.xml选择的是 UTF-8(Unicode转码，一个中文占 3个 字节) ，TCP协议就会将中文转为UTF-8 码
         但tomcat解析的时候默认按照 ISO-8859-1 编码规则解码，该编码不支持中文，因此会出现乱码
                     需要注意的是，tomcat9.0对于GET提交方式的中文解码已经解决
+                乱码问题是Servlet中最讨厌的问题之一
         */
         while (ems.hasMoreElements()) {
             String name=ems.nextElement();
