@@ -23,7 +23,10 @@ public class RequestDispatchTest extends HttpServlet {
         //请求转发时， request会进行增强，将用户请求 和 本次系统内部请求，包在一起形成一个  request（装饰者模式）
         // forward方法只会对request增强，对 response不变
         //dispatch指的是自身servlet，会陷入死循环
-        req.getRequestDispatcher("dispatch2").include(req,resp);//请求转发的方式：如果页面的请求提交方式是POST，则跳转时提交方式依然是POST  path前的/可加可不加？
+        req.getRequestDispatcher("dispatch2").include(req,resp);//请求转发的方式：如果页面的请求提交方式是POST，则跳转时提交方式依然是POST
+          // path前的/可加可不加？
+                // 判断 /开头的后台相对路径  参照的是应用的根节点   即 http://127.0.0.1:8080/MyFirWeb  由此推断出绝对路径是  http://127.0.0.1:8080/MyFirWeb/dispatch2 可访问
+                // 不以/ 开头的 路径是 当前访问资源的路径+相对路径   由此推断出绝对路径是  http://127.0.0.1:8080/MyFirWeb/dispatch2 可访问
         /*
         * forward()与include()的区别，主要表现在标准输出流的开启时间不同：
         * forward(): forwar这个单词表示的意思是“向前”，说明当前的请求还未结束，需要继续“向前”
