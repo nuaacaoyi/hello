@@ -1,7 +1,5 @@
 package com.atguigu.java;
 
-import com.atguigu.bean.Hello;
-
 import java.util.ArrayList;
 
 /**
@@ -39,6 +37,6 @@ public class TemplatesTest {
      //模板六  prsf 生成私有静态常量
     //扩展 psf  /  psfi   /  psfs
     private static final int a=1;
-     private static final Hello he= new Hello();
+   //  private static final Hello he= new Hello();
 
 }
