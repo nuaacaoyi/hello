@@ -108,6 +108,6 @@
     </context-param>
     <welcome-file-list>
         <!--默认最前的就是欢迎页面。。如果应用中没有指定的欢迎页面，tomcat会去其config文件夹下的web.xml找-->
-        <welcome-file>index.html</welcome-file>
+        <welcome-file>index1.jsp</welcome-file>
     </welcome-file-list>
 </web-app>
