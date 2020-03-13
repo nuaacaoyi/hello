@@ -1,5 +1,5 @@
-<%@ page import="java.util.Date" %>
-<%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.util.Date,java.text.SimpleDateFormat" %>
+<%@ page errorPage="/error.jsp" %>
 <%--
   Created by IntelliJ IDEA.
   User: CY
@@ -18,6 +18,7 @@
         Hello JSP World!
         <%//JSP代码段可以写到任意位置，不一定要在<body></body>里，甚至是把代码段拆分好几部分各自放在不同的位置
             System.out.println("Java代码段");//会输出到控制台   作为java语句会翻译到 jspservlet的service方法中，不会进入 标准输出流
+            out.print("<br>");
             Date now=new Date();
             SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS");
             out.print("now = "+sdf.format(now));
