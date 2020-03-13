@@ -8,6 +8,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://mycompany.com" prefix="myshortname"%>
 <html>
     <head>
         <title>Title</title>
@@ -23,5 +24,7 @@
             SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS");
             out.print("now = "+sdf.format(now));
         %>
+        <br>
+        我们使用一下自定义函数 ${myshortname:toUpper("aBcde")}
     </body>
 </html>
