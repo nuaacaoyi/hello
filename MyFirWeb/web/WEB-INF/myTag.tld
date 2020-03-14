@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>ct</short-name>
+    <uri>http://mycompany123.com</uri>
+
+    <!-- Invoke 'Generate' action to add tags or functions -->
+    <!--????-->  <!--???????????????-->
+    <tag>
+        <name>getip</name>
+        <tag-class>com.powernode.jsp.ClientIPTag</tag-class>
+        <body-content>empty</body-content>  <!--????  ?????????  ????-->
+    </tag>
+    <tag>
+        <name>lowerToUpper</name>
+        <tag-class>com.powernode.jsp.lowerToUpper</tag-class>
+        <!--????  ?????????
+            empty  ?????
+            scriptless  ?????????????????java???Java????JSP????
+                        ?????EL???
+            jsp     ??????
+            tagdependent ??????????????????????????????????EL???????????
+        -->
+        <body-content>scriptless</body-content>
+    </tag>
+    <tag>
+        <name>if</name>
+        <tag-class>com.powernode.jsp.IfTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>test</name>
+            <required>true</required>
+            <!--runtime expression value     true????EL???-->
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>

@@ -10,6 +10,7 @@
     <uri>http://mycompany.com</uri>
 
     <!-- Invoke 'Generate' action to add tags or functions -->
+    <!--????-->
     <function>
         <name>toUpper</name>
         <function-class>com.powernode.jsp.ELFunctions</function-class>

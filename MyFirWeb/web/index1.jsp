@@ -26,5 +26,6 @@
         %>
         <br>
         我们使用一下自定义函数 ${myshortname:toUpper("aBcde")}
+        <br><!--自定义标签-->
     </body>
 </html>
