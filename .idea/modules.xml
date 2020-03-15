@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JSPExampleSMS/JSPExampleSMS.iml" filepath="$PROJECT_DIR$/JSPExampleSMS/JSPExampleSMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSPStudy/JSPStudy.iml" filepath="$PROJECT_DIR$/JSPStudy/JSPStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyFirWeb/MyFirWeb.iml" filepath="$PROJECT_DIR$/MyFirWeb/MyFirWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/StaticWebStudy/StaticWebStudy.iml" filepath="$PROJECT_DIR$/StaticWebStudy/StaticWebStudy.iml" />

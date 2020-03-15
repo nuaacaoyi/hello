@@ -4,10 +4,22 @@
       <root url="jar://D:/developer_tools/apache-tomcat-8.5.51-windows-x64/apache-tomcat-8.5.51/lib/jsp-api.jar!/" />
       <root url="jar://D:/developer_tools/apache-tomcat-8.5.51-windows-x64/apache-tomcat-8.5.51/lib/servlet-api.jar!/" />
       <root url="file://D:/developer_tools/apache-tomcat-8.5.51-windows-x64/apache-tomcat-8.5.51/lib" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-compat-1.2.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-jstlel-1.2.5.jar!/" />
+      <root url="jar://D:/developer_tools/mysql-connector-java-8.0.19/mysql-connector-java-8.0.19.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="file://D:/developer_tools/apache-tomcat-8.5.51-windows-x64/apache-tomcat-8.5.51/java" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-1.2.5-source-release.zip!/taglibs-standard-1.2.5/compat/src/main/java" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-1.2.5-source-release.zip!/taglibs-standard-1.2.5/impl/src/main/java" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-1.2.5-source-release.zip!/taglibs-standard-1.2.5/impl/src/test/java" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-1.2.5-source-release.zip!/taglibs-standard-1.2.5/jstlel/src/main/java" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-1.2.5-source-release.zip!/taglibs-standard-1.2.5/jstlel/src/test/java" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-1.2.5-source-release.zip!/taglibs-standard-1.2.5/spec/src/main/java" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-1.2.5-source-release.zip!/taglibs-standard-1.2.5/spec/src/test/java" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-1.2.5-source-release.zip!/taglibs-standard-1.2.5/standard-test/src/test/java" />
     </SOURCES>
     <jarDirectory url="file://D:/developer_tools/apache-tomcat-8.5.51-windows-x64/apache-tomcat-8.5.51/lib" recursive="false" />
   </library>
