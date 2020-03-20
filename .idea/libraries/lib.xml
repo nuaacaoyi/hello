@@ -8,6 +8,8 @@
       <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-impl-1.2.5.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/taglibs-standard-jstlel-1.2.5.jar!/" />
       <root url="jar://D:/developer_tools/mysql-connector-java-8.0.19/mysql-connector-java-8.0.19.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/dom4j-1.6.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/selfdownload_cy/jaxen-1.1-beta-7.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

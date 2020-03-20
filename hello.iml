@@ -17,5 +17,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="MyFirWeb" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
